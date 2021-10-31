@@ -1,0 +1,112 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+h1 {
+  font: 17px/1.8 "Roboto Condensed", Helvetica, Arial, sans-serif;
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  }
+h2 {
+  font: 16px/1.6 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  }
+
+.c1 {
+  text-align: center;
+  margin: auto;
+  width: 340px;
+}
+
+.foot {
+  
+  font: 11px/1.2 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-align: center;
+  margin-top: 10px;
+  opacity: 0.3;
+  }
+
+form {
+  border: 1px solid #c6c7cc;
+  border-radius: 5px;
+  font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  overflow: hidden;
+  
+}
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+input {
+  border-radius: 5px;
+  font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+  
+}
+legend {
+  font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  padding-top: 10px;
+}
+.account-info {
+  padding: 20px 20px 0 20px;
+}
+.account-info label {
+  color: #395870;
+  display: block;
+  text-align: left;
+  font-weight: bold;
+  padding-bottom: 3px;
+  padding-top:5px;
+  
+}
+.account-info input {
+  background: #fff;
+  border: 1px solid #c6c7cc;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, .1);
+  color: #636466;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.account-info select {
+  background: #fff;
+  border: 1px solid #c6c7cc;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, .1);
+  color: #636466;
+  padding: 3px 0;
+  margin-bottom: 10px;
+  
+}
+.account-action {
+  background: #f0f0f2;
+  border-top: 1px solid #c6c7cc;
+  padding:20px 20px 30px 33px;
+  line-height: 15px;
+  margin-top:5px;
+}
+.account-action .btn {
+  background: linear-gradient(#49708f, #293f50);
+  border: 0;
+  color: #fff;
+  cursor: pointer;
+  padding: 7px 18px;
+  margin-top: 10px;
+  
+}
+.account-action label {
+  color: #7c7c80;
+  font-size: 11px;
+  
+}
+input[type="text"], input[type="email"],  select, textarea {
+  width: 100%;
+  height: 27px;
+  
+}
+input[type="password"],  select, textarea {
+  width: 100%;
+  height: 30px;
+  
